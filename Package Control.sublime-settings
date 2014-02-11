@@ -1,0 +1,19 @@
+{
+	"installed_packages":
+	[
+		"FileDiffs",
+		"GitGutter",
+		"INI",
+		"Keymaps",
+		"PythonTraceback",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeGit",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-flake8",
+		"SublimeLinter-jshint",
+		"SublimeREPL",
+		"TrailingSpaces"
+	]
+}
