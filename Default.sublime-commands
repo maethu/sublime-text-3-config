@@ -1,0 +1,29 @@
+[
+   {"command": "repl_open",
+         "caption": "Run current tests",
+         "id": "repl_python_current_test",
+         "mnemonic": "s",
+         "args": {
+            "type": "subprocess",
+            "encoding": "utf8",
+            "cmd": ["./bin/test", "-t", "${file_basename_wo_ext}"],
+            "cwd": "${folder}",
+            "syntax": "Packages/Python/Python.tmLanguage",
+            "external_id": "testrunner"
+         }
+   },
+
+   {"command": "repl_open",
+         "caption": "Run all tests",
+         "id": "repl_python_current_test",
+         "mnemonic": "d",
+         "args": {
+            "type": "subprocess",
+            "encoding": "utf8",
+            "cmd": ["./bin/test"],
+            "cwd": "${folder}",
+            "syntax": "Packages/Python/Python.tmLanguage",
+            "external_id": "testrunner"
+         }
+   },
+]
