@@ -1,0 +1,35 @@
+{
+    "working_dir": "${project_path:${folder}}",
+    "variants": [
+        {
+            "cmd": ["bin/test", "-t", "$file_base_name"],
+            //"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+            "name": "test: current",
+            "shell": true
+        },
+        {
+            "cmd": ["bin/test"],
+            //"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+            "name": "test: all"
+        },
+        {
+            "cmd": ["bin/test-coverage"],
+            //"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+            "name": "test: all incl. coverage"
+        },
+        {
+            "cmd": ["bin/buildout", "-N"],
+            "name": "buildout: non-newest mode"
+        },
+        {
+            "cmd": ["bin/buildout"],
+            "name": "buildout: init"
+        },
+        {
+            "cmd": ["bin/buildout", "-c", "$file_name"],
+            "name": "buildout: current config"
+        }
+
+    ]
+
+}
