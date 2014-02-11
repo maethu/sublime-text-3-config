@@ -1,0 +1,37 @@
+{
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/Mac Classic (SL).tmTheme",
+	"detect_slow_plugins": true,
+	"file_exclude_patterns":
+	[
+		".gitignore",
+		".DS_Store",
+		".*.cfg",
+		"*.pyc"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		".*",
+		"parts",
+		"bin",
+		"eggs",
+		"var",
+		"*egg-info",
+		"develop-eggs"
+	],
+	"font_size": 11,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"remember_open_files": false,
+	"show_line_endings": true,
+	"show_tab_close_buttons": false,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"tree_animation_enabled": false
+}
