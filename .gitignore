@@ -2,3 +2,5 @@ SublimeGit.sublime-settings
 Package Control.cache
 Package Control.last-run
 Package Control.system-ca-bundle
+.SublimeREPLHistory
+Side Bar.sublime-settings
