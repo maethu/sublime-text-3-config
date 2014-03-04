@@ -3,9 +3,9 @@
 from Products.Five.browser import BrowserView
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 
-class KLASS(BrowserView):
+class ${1:KLASS}(BrowserView):
 
-    template = ViewPageTemplateFile('TEMPLATE.pt')
+    template = ViewPageTemplateFile('${2:TEMPLATE.pt}')
 
     def __call__(self):
 
