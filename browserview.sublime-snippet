@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+from Products.Five.browser import BrowserView
+from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
+
+class KLASS(BrowserView):
+
+    template = ViewPageTemplateFile('TEMPLATE.pt')
+
+    def __call__(self):
+
+        return self.template()
+]]></content>
+    <tabTrigger>bview</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
