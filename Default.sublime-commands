@@ -6,7 +6,7 @@
          "args": {
             "type": "subprocess",
             "encoding": "utf8",
-            "cmd": ["./bin/test", "-t", "${file_basename_wo_ext}"],
+            "cmd": ["./bin/test", "-t", "${file_basename_without_extension}"],
             "cwd": "${folder}",
             "syntax": "Packages/Python/Python.tmLanguage",
             "external_id": "testrunner"
