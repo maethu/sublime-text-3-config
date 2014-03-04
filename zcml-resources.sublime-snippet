@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+
+    <browser:resourceDirectory
+        name='${1:name}'
+        directory="${2:resources}"
+    />
+
+]]></content>
+    <tabTrigger>r</tabTrigger>
+    <scope>text.xml</scope>
+</snippet>

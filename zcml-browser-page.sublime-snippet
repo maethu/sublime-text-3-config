@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+    <browser:page
+        for="${1:*}"
+        name="${2:name}"
+        class="${3:.module.klass}"
+        permission="${4:zope.Public}"
+        layer="${5:ILayer}"
+        />
+
+]]></content>
+    <tabTrigger>b</tabTrigger>
+    <scope>text.xml</scope>
+</snippet>
