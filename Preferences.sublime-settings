@@ -22,7 +22,7 @@
 		"*egg-info",
 		"develop-eggs"
 	],
-	"font_size": 11,
+	"font_size": 12,
 	"highlight_line": true,
 	"ignored_packages":
 	[
