@@ -1,6 +1,7 @@
 {
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/Mac Classic (SL).tmTheme",
+	"detect_indentation": false,
 	"detect_slow_plugins": true,
 	"file_exclude_patterns":
 	[
