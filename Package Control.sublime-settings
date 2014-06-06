@@ -1,8 +1,11 @@
 {
 	"installed_packages":
 	[
+		"EasyDiff",
 		"FileDiffs",
+		"Find Non ASCII Characters",
 		"GitGutter",
+		"HTMLBeautify",
 		"Indent XML",
 		"INI",
 		"Javascript Beautify",
