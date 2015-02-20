@@ -1,6 +1,6 @@
 {
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/Mac Classic (SL).tmTheme",
+	"color_scheme": "Packages/User/Mac Classic (SL) (SublimePythonIDE).tmTheme",
 	"detect_indentation": false,
 	"detect_slow_plugins": true,
 	"file_exclude_patterns":
@@ -23,12 +23,13 @@
 		"*egg-info",
 		"develop-eggs"
 	],
-	"font_size": 12,
+	"font_size": 13,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"indent_to_bracket": true,
 	"remember_open_files": false,
 	"show_line_endings": true,
 	"show_tab_close_buttons": false,
