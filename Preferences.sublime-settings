@@ -1,8 +1,10 @@
 {
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/Mac Classic (SL) (SublimePythonIDE).tmTheme",
+	"create_window_at_startup": false,
 	"detect_indentation": false,
 	"detect_slow_plugins": true,
+	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
 		".gitignore",
@@ -15,16 +17,15 @@
 		".svn",
 		".git",
 		".hg",
-		".*",
-		"parts",
-		"bin",
 		"eggs",
+		"src",
 		"var",
 		"*egg-info",
 		"develop-eggs"
 	],
 	"font_size": 13,
 	"highlight_line": true,
+	"hot_exit": false,
 	"ignored_packages":
 	[
 		"Vintage"
