@@ -1,15 +1,16 @@
 [
    {"command": "repl_open",
-         "caption": "Run current tests",
+         "caption": "Run current tests (Python)",
          "id": "repl_python_current_test",
-         "mnemonic": "s",
+         "mnemonic": "d",
          "args": {
             "type": "subprocess",
             "encoding": "utf8",
             "cmd": ["./bin/test", "-t", "${file_basename_without_extension}"],
-            "cwd": "${folder}",
+            "cwd": "$folder",
             "syntax": "Packages/Python/Python.tmLanguage",
-            "external_id": "testrunner"
+            "external_id": "python",
+            "extend_env": {"PYTHONIOENCODING": "utf-8"}
          }
    },
 
@@ -40,4 +41,34 @@
             "external_id": "testrunner"
          }
    },
+
+   {"command": "repl_open",
+         "caption": "Run current tests (Ruby)",
+         "id": "repl_ruby_current_test",
+         "mnemonic": "s",
+         "args": {
+            "type": "subprocess",
+            "encoding": "utf8",
+            "cmd": ["/usr/bin/env", "ruby", "-Itest", "${file_path}/${file_basename}"],
+            "cwd": "${folder}",
+            "syntax": "Packages/Ruby/Ruby.tmLanguage",
+            "external_id": "testrunner"
+         }
+   },
+
+   {"command": "repl_open",
+         "caption": "Run all tests (Ruby)",
+         "id": "repl_ruby_all_test",
+         "mnemonic": "s",
+         "args": {
+            "type": "subprocess",
+            "encoding": "utf8",
+            "cmd": ["./bin/rake"],
+            "cwd": "${folder}",
+            "syntax": "Packages/Ruby/Ruby.tmLanguage",
+            "external_id": "testrunner"
+         }
+   },
+
+
 ]
