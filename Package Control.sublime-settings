@@ -1,28 +1,39 @@
 {
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
+		"Anaconda",
+		"BeautifyRuby",
 		"EasyDiff",
 		"FileDiffs",
 		"Find Non ASCII Characters",
 		"GitGutter",
-		"HTMLBeautify",
-		"Indent XML",
+		"GitSavvy",
+		"Google Spell Check",
 		"INI",
 		"Javascript Beautify",
 		"Keymaps",
-		"Markdown Preview",
+		"LoremIpsum",
+		"OmniMarkupPreviewer",
 		"Origami",
+		"Package Control",
+		"PackageResourceViewer",
+		"Pretty JSON",
 		"Python PEP8 Autoformat",
-		"PythonTraceback",
+		"SassBeautify",
+		"SCSS",
 		"SideBarEnhancements",
+		"SSH Config",
 		"Sublime Files",
-		"SublimeCodeIntel",
-		"SublimeGit",
 		"SublimeLinter",
+		"SublimeLinter-contrib-scss-lint",
 		"SublimeLinter-csslint",
 		"SublimeLinter-flake8",
 		"SublimeLinter-jshint",
-		"SublimeREPL",
+		"SublimeLinter-ruby",
 		"TrailingSpaces"
 	]
 }
