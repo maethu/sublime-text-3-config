@@ -1,0 +1,9 @@
+{
+    "indent": 2,
+    "dasherize": false,
+    "old": false,
+    "path": "/Users/maethu/.rbenv/shims:/Users/maethu/.rbenv/bin:/usr/local/bin:/Developer/usr/bin:/Users/maethu/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin",
+    "beautifyOnSave": false,
+    "inlineComments": false,
+    "newlineBetweenSelectors": false
+}
