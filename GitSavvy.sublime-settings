@@ -1,0 +1,9 @@
+{
+    "dev_mode": false,
+
+    "api_tokens": {
+        "github.com": "57e1536ea2390cfaf0cf8e5f51681eaba9b603b0"
+    },
+
+    "show_commit_diff": true,
+}

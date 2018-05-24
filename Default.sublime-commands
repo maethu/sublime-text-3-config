@@ -1,4 +1,35 @@
 [
+
+   {"command": "repl_open",
+         "caption": "pytest (Python)",
+         "id": "repl_pytest_current_test",
+         "mnemonic": "d",
+         "args": {
+            "type": "subprocess",
+            "encoding": "utf8",
+            "cmd": ["./bin/pytest", "--durations=0", "--emoji", "${file_path}/${file_basename}"],
+            "cwd": "$folder",
+            "syntax": "Packages/Python/Python.tmLanguage",
+            "external_id": "python",
+            "extend_env": {"PYTHONIOENCODING": "utf-8"}
+         }
+   },
+
+   {"command": "repl_open",
+         "caption": "pytest pdb (Python)",
+         "id": "repl_pytest_current_test",
+         "mnemonic": "d",
+         "args": {
+            "type": "subprocess",
+            "encoding": "utf8",
+            "cmd": ["./bin/pytest", "--pdb", "${file_path}/${file_basename}"],
+            "cwd": "$folder",
+            "syntax": "Packages/Python/Python.tmLanguage",
+            "external_id": "python",
+            "extend_env": {"PYTHONIOENCODING": "utf-8"}
+         }
+   },
+
    {"command": "repl_open",
          "caption": "Run current tests (Python)",
          "id": "repl_python_current_test",
