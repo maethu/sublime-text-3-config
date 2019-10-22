@@ -1,6 +1,6 @@
 {
     // Columns in which to display vertical rulers
-    "rulers": [79],
+    "rulers": [79, 120],
     "auto_complete_triggers": [{"selector": "source.python", "characters": "."}],
 
 }

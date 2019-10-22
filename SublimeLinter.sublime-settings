@@ -1,4 +1,9 @@
 // SublimeLinter Settings - User
 {
     "lint_mode": "load_save",
+    "linters": {
+        "eslint": {
+          "selector": "source.js, text.html.vue"
+    },
+  }
 }

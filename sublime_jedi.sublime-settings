@@ -2,16 +2,17 @@
     // Used to get the `PYTHONPATH`.
     // You can set a path to your python interpreter,
     // for example `/home/user/.virtualenvs/myenv/bin/python)`.
-    "python_interpreter": "work-python",
+    "python_interpreter": "",
+    "python_virtualenv": "",
 
     // Additional python package paths.
-     "python_package_paths": ["$folder/parts/omelette", "$folder/lib/site-packages"],
+     "python_package_paths": ["$folder/parts/omelette"],
 
     // Which function arguments to insert in autocompletion:
     // "all" - all
     // "required" - those with no default value (that are required)
     // "" - none
-    "auto_complete_function_params": "required",
+    "auto_complete_function_params": "none",
 
     // "debug", "error", "info", "warn"
     "logging_level": "warn",

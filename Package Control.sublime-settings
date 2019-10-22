@@ -7,11 +7,10 @@
 	[
 		"Babel",
 		"BeautifyRuby",
-		"Djaneiro",
+		"CSV",
 		"EasyDiff",
 		"FileDiffs",
 		"Find Non ASCII Characters",
-		"GitGutter",
 		"GitSavvy",
 		"Google Spell Check",
 		"Indent XML",
@@ -20,8 +19,8 @@
 		"JavaScript Completions",
 		"Jedi - Python autocompletion",
 		"Keymaps",
+		"Laroute",
 		"LoremIpsum",
-		"OmniMarkupPreviewer",
 		"Origami",
 		"Package Control",
 		"PackageResourceViewer",
@@ -34,12 +33,13 @@
 		"SideBarEnhancements",
 		"SSH Config",
 		"Sublime Files",
+		"SublimeLinter",
 		"SublimeLinter-contrib-scss-lint",
-		"SublimeLinter-csslint",
 		"SublimeLinter-eslint",
 		"SublimeLinter-flake8",
-		"SublimeLinter-ruby",
-		"TrailingSpaces",
-		"Vue Syntax Highlight"
+		"Text Pastry",
+		"Vue Syntax Highlight",
+		"Vuejs Snippets",
+		"Vuetify"
 	]
 }
