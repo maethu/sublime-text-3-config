@@ -40,6 +40,7 @@
 	"index_workers": 2,
 	"remember_open_files": false,
 	"show_definitions": false,
+	"show_full_path": true,
 	"show_line_endings": true,
 	"show_tab_close_buttons": false,
 	"tab_size": 4,

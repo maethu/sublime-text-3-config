@@ -13,11 +13,13 @@
 		"Find Non ASCII Characters",
 		"GitSavvy",
 		"Google Spell Check",
+		"HTMLBeautify",
 		"Indent XML",
 		"INI",
 		"Javascript Beautify",
 		"JavaScript Completions",
 		"Jedi - Python autocompletion",
+		"JsPrettier",
 		"Keymaps",
 		"Laroute",
 		"LoremIpsum",
@@ -40,6 +42,6 @@
 		"Text Pastry",
 		"Vue Syntax Highlight",
 		"Vuejs Snippets",
-		"Vuetify"
+		"Whitespace"
 	]
 }
